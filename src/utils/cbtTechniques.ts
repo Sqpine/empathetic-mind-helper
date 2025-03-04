@@ -163,7 +163,7 @@ const crisisResources = [
   "• Crisis Text Line: Text HOME to 741741",
   "• 911 or go to your nearest emergency room",
   "Remember, you don't have to face these feelings alone. Professional help is available, and they can provide the support you need right now."
-].join('\n');
+];
 
 // Response templates
 const responseTemplates = {
@@ -227,7 +227,7 @@ const responseTemplates = {
     "That sounds like it might involve some 'should' statements, which can create unrealistic expectations. What would happen if you replaced 'should' with 'could' or 'would like to'?"
   ],
   
-  suicidal: crisisResources,
+  suicidal: [crisisResources.join('\n')],
   
   abuse: [
     "I'm concerned about what you've shared. Your safety is important. If you're in immediate danger, please call emergency services at 911.",
