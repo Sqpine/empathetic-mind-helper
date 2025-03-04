@@ -1,4 +1,3 @@
-
 // Possible user message categories
 type MessageCategory = 
   | 'greeting'
@@ -27,7 +26,7 @@ export const cbtTechniques = {
       'Consider alternative perspectives.',
       'Generate a balanced thought that takes all evidence into account.'
     ],
-    example: 'Instead of thinking "I always fail at everything," consider "I've had some setbacks, but I've also had successes in the past."'
+    example: "Instead of thinking \"I always fail at everything,\" consider \"I have had some setbacks, but I have also had successes in the past.\""
   },
   
   behavioralActivation: {
@@ -302,9 +301,9 @@ export const cbtExercises = [
   {
     id: 'gratitude-practice',
     title: 'Gratitude Journal',
-    description: 'Cultivate positive emotions by regularly acknowledging things you're grateful for.',
+    description: "Cultivate positive emotions by regularly acknowledging things you're grateful for.",
     steps: [
-      'Each day, write down 3 things you're grateful for',
+      'Each day, write down 3 things you\'re grateful for',
       'Include why each thing matters to you',
       'Try to find new things each day, even small details',
       'Notice how focusing on gratitude affects your mood',
@@ -316,7 +315,7 @@ export const cbtExercises = [
     title: 'Progressive Muscle Relaxation',
     description: 'Reduce physical tension by systematically tensing and relaxing muscle groups.',
     steps: [
-      'Find a quiet space where you won't be disturbed',
+      'Find a quiet space where you won\'t be disturbed',
       'Starting with your feet, tense the muscles for 5-10 seconds',
       'Release the tension and notice the feeling of relaxation',
       'Progress upward through each muscle group in your body',
