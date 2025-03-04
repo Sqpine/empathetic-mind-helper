@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -63,32 +62,31 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom color palette for our chatbot
 				mind: {
-					50: '#f0f7ff',
-					100: '#e0eefe',
-					200: '#bae0fd',
-					300: '#7dcbfc',
-					400: '#3ab0f8',
-					500: '#0e95ea',
-					600: '#0078c8',
-					700: '#0160a2',
-					800: '#065186',
-					900: '#0a4570',
-					950: '#062a49',
+					50: '#fdf2f8',
+					100: '#fce7f3',
+					200: '#fbcfe8',
+					300: '#f9a8d4',
+					400: '#f472b6',
+					500: '#ec4899',
+					600: '#db2777',
+					700: '#be185d',
+					800: '#9d174d',
+					900: '#831843',
+					950: '#500724',
 				},
 				harmony: {
-					50: '#f5f7fa',
-					100: '#ebeef5',
-					200: '#d2dbe9',
-					300: '#adbbd6',
-					400: '#8296bc',
-					500: '#6478a5',
-					600: '#4e6089',
-					700: '#404e6f',
-					800: '#36435e',
-					900: '#30394f',
-					950: '#21273a',
+					50: '#f8f9fc',
+					100: '#f1f3f9',
+					200: '#e3e7f2',
+					300: '#c7d0e5',
+					400: '#a3b1d6',
+					500: '#8192c7',
+					600: '#6d7ab6',
+					700: '#5a6396',
+					800: '#4a5178',
+					900: '#3e4463',
+					950: '#2d304a',
 				}
 			},
 			borderRadius: {
@@ -161,7 +159,7 @@ export default {
 			},
 			backdropBlur: {
 				xs: '2px',
-			},
+			}
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
